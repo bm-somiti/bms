@@ -525,18 +525,18 @@
   "update": {
     "note": "নতুন অ্যাপ ভার্সন বের করলে এখানে সংখ্যা বাড়ান — অ্যাপ খুললেই আপডেট করতে বলবে। force=true হলে আপডেট না করে অ্যাপ চলবে না। Android-এ versionCode (পূর্ণ সংখ্যা, build.gradle-এর সাথে মেলে), Windows-এ version (যেমন 1.5.0, package.json-এর সাথে মেলে)।",
     "android": {
-      "versionCode": 8,
-      "versionName": "1.6.0",
+      "versionCode": 9,
+      "versionName": "1.6.1",
       "force": false,
       "url": "https://github.com/bm-somiti/bms/releases/latest/download/BondhumohalTV.apk",
-      "notes": "সার্ভার বদল: এখন Cloudflare-এ, একটি বন্ধ হলে অন্যটি চলবে; সমিতির সাইটে টিভিতে ফেরার বাটন"
+      "notes": "নতুন সংস্করণ: ছোট সংশোধন ও স্থিতিশীলতা; ডাউনলোড এখন GitHub থেকে"
     },
     "windows": {
-      "version": "1.9.0",
+      "version": "1.9.1",
       "force": false,
       "url": "https://github.com/bm-somiti/bms/releases/latest/download/BondhumohalTV-Setup.exe",
       "portableUrl": "https://github.com/bm-somiti/bms/releases/latest/download/BondhumohalTV-Portable.exe",
-      "notes": "সার্ভার বদল: এখন Cloudflare-এ, একটি বন্ধ হলে অন্যটি চলবে"
+      "notes": "নতুন সংস্করণ: ছোট সংশোধন ও স্থিতিশীলতা"
     }
   },
   "specialDays": [],

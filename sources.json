@@ -525,18 +525,18 @@
   "update": {
     "note": "নতুন অ্যাপ ভার্সন বের করলে এখানে সংখ্যা বাড়ান — অ্যাপ খুললেই আপডেট করতে বলবে। force=true হলে আপডেট না করে অ্যাপ চলবে না। Android-এ versionCode (পূর্ণ সংখ্যা, build.gradle-এর সাথে মেলে), Windows-এ version (যেমন 1.5.0, package.json-এর সাথে মেলে)।",
     "android": {
-      "versionCode": 9,
-      "versionName": "1.6.1",
-      "force": false,
+      "versionCode": 13,
+      "versionName": "1.6.5",
+      "force": true,
       "url": "https://github.com/bm-somiti/bms/releases/latest/download/BondhumohalTV.apk",
-      "notes": "নতুন সংস্করণ: ছোট সংশোধন ও স্থিতিশীলতা; ডাউনলোড এখন GitHub থেকে"
+      "notes": "বাধ্যতামূলক আপডেট: স্যামসাং ফোনে অ্যাপ হঠাৎ বন্ধ হওয়ার সমস্যা কমানোর সংশোধন ও আপডেট ব্যবস্থার উন্নতি"
     },
     "windows": {
-      "version": "1.9.1",
-      "force": false,
+      "version": "1.9.3",
+      "force": true,
       "url": "https://github.com/bm-somiti/bms/releases/latest/download/BondhumohalTV-Setup.exe",
       "portableUrl": "https://github.com/bm-somiti/bms/releases/latest/download/BondhumohalTV-Portable.exe",
-      "notes": "নতুন সংস্করণ: ছোট সংশোধন ও স্থিতিশীলতা"
+      "notes": "বাধ্যতামূলক আপডেট: আপডেট ব্যবস্থার উন্নতি"
     }
   },
   "specialDays": [],

@@ -523,20 +523,20 @@
   },
   "sources_note": "'keep' থাকলে ওই সোর্স থেকে শুধু ওই ক্যাটাগরির চ্যানেল নেওয়া হয় (যেমন Bugsfree BD থেকে শুধু বাংলা চ্যানেল)।",
   "update": {
-    "note": "নতুন অ্যাপ ভার্সন বের করলে এখানে সংখ্যা বাড়ান — অ্যাপ খুললেই আপডেট করতে বলবে। force=true হলে আপডেট না করে অ্যাপ চলবে না। Android-এ versionCode (পূর্ণ সংখ্যা, build.gradle-এর সাথে মেলে), Windows-এ version (যেমন 1.5.0, package.json-এর সাথে মেলে)।",
+    "note": "Android ও Windows আপডেট ডিফল্টভাবে ঐচ্ছিক (force=false)। নতুন binary GitHub Releases-এ প্রকাশ ও পরীক্ষা করার পর দুই Cloudflare mirror-এ একই sources.json deploy করুন। জরুরি ক্ষেত্রে rollout যাচাই করে আলাদাভাবে force=true করা যাবে।",
     "android": {
-      "versionCode": 13,
-      "versionName": "1.6.5",
-      "force": true,
+      "versionCode": 16,
+      "versionName": "1.6.8",
+      "force": false,
       "url": "https://github.com/bm-somiti/bms/releases/latest/download/BondhumohalTV.apk",
-      "notes": "বাধ্যতামূলক আপডেট: স্যামসাং ফোনে অ্যাপ হঠাৎ বন্ধ হওয়ার সমস্যা কমানোর সংশোধন ও আপডেট ব্যবস্থার উন্নতি"
+      "notes": "স্থিতিশীলতা উন্নয়ন: nullable PlayerController, lifecycle breadcrumbs, উন্নত crash diagnostics, ঐচ্ছিক আপডেট, signer lineage যাচাই, PiP suppression এবং R8 optimization।"
     },
     "windows": {
-      "version": "1.9.3",
-      "force": true,
+      "version": "1.9.5",
+      "force": false,
       "url": "https://github.com/bm-somiti/bms/releases/latest/download/BondhumohalTV-Setup.exe",
       "portableUrl": "https://github.com/bm-somiti/bms/releases/latest/download/BondhumohalTV-Portable.exe",
-      "notes": "বাধ্যতামূলক আপডেট: আপডেট ব্যবস্থার উন্নতি"
+      "notes": "HTTPS-only update download, redirect validation, mirror fallback এবং optional update rollout।"
     }
   },
   "specialDays": [],
